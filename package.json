@@ -2,7 +2,9 @@
   "name": "antoinedabonneville.fr",
   "version": "1.0.0",
   "description": "Personal website",
-  "scripts": {},
+  "scripts": {
+    "dev": "concurrently \"npm --prefix ./frontend  run dev\" \"npm --prefix ./backend run dev\" "
+  },
   "author": "msarava",
   "license": "ISC",
   "devDependencies": {
